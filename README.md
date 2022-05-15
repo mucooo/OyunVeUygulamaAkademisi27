@@ -1,6 +1,6 @@
 # **Takım İsmi**
 
-Takım X
+Ventisette
 
 # Ürün İle İlgili Bilgiler
 
