@@ -14374,7 +14374,7 @@ GameObject:
   - component: {fileID: 678447200}
   - component: {fileID: 678447199}
   m_Layer: 0
-  m_Name: Tvscreen
+  m_Name: TvGlitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
