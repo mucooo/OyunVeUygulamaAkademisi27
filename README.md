@@ -105,9 +105,15 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Micro Board'da gözü
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/bedroom1.png?raw=true)
-  ![Screenshot 2](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/hallway1.png?raw=true)
-  ![Screenshot 3](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/sketch1.png?raw=true)
+  ![Screenshot 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/menu.png?raw=true)
+  ![Screenshot 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss1.png?raw=true)
+  ![Screenshot 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss2.png?raw=true)
+  ![Screenshot 4](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss3.png?raw=true)
+  ![Screenshot 5](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss4.png?raw=true)
+  ![Screenshot 6](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss5.png?raw=true)
+  ![Screenshot 7](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss6.png?raw=true)
+  ![Screenshot 8](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss7.png?raw=true)
+  ![Screenshot 9](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss8.png?raw=true)
 
 
 - **Sprint Review**: 
