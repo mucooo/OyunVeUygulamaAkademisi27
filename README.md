@@ -97,9 +97,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Micro Board'da gözü
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/trelloSprint1_1.png?raw=true) 
-![Backlog 2](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/trelloSprint1_2.png?raw=true) 
-![Backlog 3](https://github.com/Sametaien/OyunVeUygulamaAkademisiTeam27/blob/main/ProjectManagement/Sprint1Documents/trelloSprint1_3.png?raw=true)
+![Backlog 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_1.png?raw=true) 
+![Backlog 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_2.png?raw=true) 
+![Backlog 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_3.png?raw=true)
 
 - Yeşil Label: 2. Sprint ||  Mavi Label: User Story  ||  Kırmızı Label: Tasks
 
