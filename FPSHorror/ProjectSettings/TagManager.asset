@@ -7,7 +7,7 @@ TagManager:
   - CinemachineTarget
   - Interactable
   - Grounded
-  - Door
+  - Notepad
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - UI
   - Interect
   - Ground
-  - 
+  - Pushable
   - 
   - 
   - 
