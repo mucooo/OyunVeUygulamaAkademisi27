@@ -132,4 +132,48 @@ Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için g
 
 # Sprint 3
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Micro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_1.png?raw=true) 
+![Backlog 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_2.png?raw=true) 
+![Backlog 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_3.png?raw=true)
+
+- Lacivert Label: 3. Sprint ||  Mavi Label: User Story  ||  Kırmızı Label: Tasks
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/menu.png?raw=true)
+  ![Screenshot 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss1.png?raw=true)
+  ![Screenshot 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss2.png?raw=true)
+  ![Screenshot 4](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss3.png?raw=true)
+  ![Screenshot 5](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss4.png?raw=true)
+  ![Screenshot 6](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss5.png?raw=true)
+  ![Screenshot 7](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss6.png?raw=true)
+  ![Screenshot 8](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss7.png?raw=true)
+  ![Screenshot 9](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss8.png?raw=true)
+
+
+- **Sprint Review**: 
+Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+
+- **Sprint Retrospective:**
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
+  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
+  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+
+-**Diğer Notlar**:
+- N/A
+
 ---
+
