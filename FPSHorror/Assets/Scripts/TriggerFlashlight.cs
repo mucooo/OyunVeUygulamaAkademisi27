@@ -1,32 +1,23 @@
+#region
+
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+#endregion
 
 public class TriggerFlashlight : MonoBehaviour
 {
-    public GameObject flashlightOnDesk;
-    public GameObject flashlightOnPlayer;
     public GameObject flashlightUI;
-    private bool OnPlayer;
-    private bool isTrigger;
-    public GameObject flashlightchargeUI; //TODO: create a flashlight charge UI and charge system with battery
-    
-   
+    public bool isTrigger;
+    private Flashlight_PRO _flashlightPro;
+    public GameObject player;
+    private FlashlightSwitch _flashlightSwitchScript;
 
     private void Start()
     {
         flashlightUI.SetActive(false);
-        flashlightOnPlayer.SetActive(false);
-        flashlightOnDesk.SetActive(true);
-        OnPlayer = false;
         isTrigger = false;
-        
-        if (OnPlayer == true)
-        {
-            flashlightchargeUI.SetActive(true);
-            Debug.Log("Şarj sistemi açık");
-        }
+        _flashlightSwitchScript = player.GetComponent<FlashlightSwitch>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,36 +26,24 @@ public class TriggerFlashlight : MonoBehaviour
         {
             flashlightUI.SetActive(true);
             isTrigger = true;
+            Debug.Log("Trigger girildi");
         }
     }
-    
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            _flashlightSwitchScript.TakeFlashlight();
+        }
+    }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             flashlightUI.SetActive(false);
             isTrigger = false;
-        }
-    }
-
-    private void Update()
-    {
-        if (OnPlayer == false && isTrigger == true)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                flashlightOnPlayer.SetActive(true);
-                flashlightOnDesk.SetActive(false);
-                Debug.Log("Alındı.");
-                OnPlayer = true;
-            }
-        }
-        else
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log("Zaten var.");
-            }
         }
     }
 }

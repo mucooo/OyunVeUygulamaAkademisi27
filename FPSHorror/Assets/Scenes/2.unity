@@ -8683,6 +8683,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 374749278}
   audioClips: []
+--- !u!114 &374749280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374749277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f058858cb0ab2439e9197e826504bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightOnDesk: {fileID: 874914339}
+  flashlightOnPlayer: {fileID: 1882586001}
 --- !u!1001 &375090669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13296,10 +13310,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5839e11fb4f5ca04bab8e763021cdff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flashlightOnDesk: {fileID: 874914339}
-  flashlightOnPlayer: {fileID: 1882586001}
   flashlightUI: {fileID: 1742134212}
-  flashlightchargeUI: {fileID: 0}
+  isTrigger: 0
+  player: {fileID: 374749277}
 --- !u!1001 &540064268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36891,6 +36904,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11476160, guid: 47af58fd905aee649a315f604914d38e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11476160, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: triggerCube
       value: 
       objectReference: {fileID: 536573854}
@@ -43813,6 +43830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlashLightOnBody
       objectReference: {fileID: 0}
+    - target: {fileID: 130382, guid: 47af58fd905aee649a315f604914d38e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 161630, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -43872,6 +43893,14 @@ PrefabInstance:
     - target: {fileID: 416254, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 10869704, guid: 47af58fd905aee649a315f604914d38e, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10869704, guid: 47af58fd905aee649a315f604914d38e, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11476160, guid: 47af58fd905aee649a315f604914d38e, type: 3}
       propertyPath: Flashlight_UI
