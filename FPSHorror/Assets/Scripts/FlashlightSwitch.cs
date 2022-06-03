@@ -8,7 +8,7 @@ public class FlashlightSwitch : MonoBehaviour
 {
     public GameObject flashlightOnDesk;
     public GameObject flashlightOnPlayer;
-    private bool OnPlayer;
+    public bool OnPlayer;
     private Flashlight_PRO flashlightScript;
 
     private void Start()
