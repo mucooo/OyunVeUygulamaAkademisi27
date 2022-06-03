@@ -1,5 +1,6 @@
 #region
 
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,10 +10,18 @@ using UnityEngine.UI;
 public class MenuScripts : MonoBehaviour
 {
     #region MainMenu
+
     public Button startGameButton;
     public Button loadGameButton;
     public Button settingsButton;
     public Button creditsButton;
+    public GameObject AyarlarPanel;
+
+
+    private void Start()
+    {
+        AyarlarPanel.SetActive(false);
+    }
 
 
     public void StartGame()
@@ -27,7 +36,11 @@ public class MenuScripts : MonoBehaviour
 
     public void Settings()
     {
-        SceneManager.LoadScene("Settings");
+        if (AyarlarPanel != null)
+        {
+            var isActive = AyarlarPanel.activeSelf;
+            AyarlarPanel.SetActive(!isActive);
+        }
     }
 
     public void Credits()
@@ -35,25 +48,23 @@ public class MenuScripts : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
-    
-
     #endregion
 
     #region SettingsPanel
+
     public Button backButton;
     public Button applyButton;
-    
+
     public void Back()
     {
         SceneManager.LoadScene("MainMenu");
     }
-    
+
     public void Apply()
     {
         Debug.Log("Ayarlar kaydedildi.");
         SceneManager.LoadScene("MainMenu");
     }
-    
 
     #endregion
 }
