@@ -1,6 +1,8 @@
 #region
 
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 #endregion
 
@@ -9,6 +11,7 @@ public class MenuController : MonoBehaviour
     public GameObject menu;
     public GameObject settings;
     public SaveSystem saveSystem;
+    public string sceneName;
 
     private void Update()
     {
@@ -19,6 +22,11 @@ public class MenuController : MonoBehaviour
             Time.timeScale = 0;
             UnlockMouse();
         }
+    }
+
+    private void Start()
+    {
+        Debug.Log("Scene name: " + PlayerPrefs.GetString("SceneName"));
     }
 
 
@@ -36,6 +44,8 @@ public class MenuController : MonoBehaviour
 
     public void Quit()
     {
+        saveSystem.SavePlayerPosition();
+        saveSystem.SaveFlashlight();
         Application.Quit();
     }
 

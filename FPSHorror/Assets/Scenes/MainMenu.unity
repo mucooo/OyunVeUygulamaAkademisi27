@@ -561,7 +561,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 380883645}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 421761257}
+        m_TargetAssemblyTypeName: MenuScripts, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &380883645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,6 +622,9 @@ GameObject:
   m_Component:
   - component: {fileID: 421761258}
   - component: {fileID: 421761257}
+  - component: {fileID: 421761259}
+  - component: {fileID: 421761260}
+  - component: {fileID: 421761261}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -634,6 +649,8 @@ MonoBehaviour:
   settingsButton: {fileID: 669420680}
   creditsButton: {fileID: 27519623}
   AyarlarPanel: {fileID: 1698024546}
+  saveSystem: {fileID: 421761259}
+  menuController: {fileID: 421761261}
   backButton: {fileID: 0}
   applyButton: {fileID: 0}
 --- !u!4 &421761258
@@ -650,6 +667,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &421761259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421761256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11943b9f30f0ee94887a76df946b6773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightSwitchScript: {fileID: 421761260}
+  defaultX: 2
+  defaultY: 0
+  defaultZ: 6
+--- !u!114 &421761260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421761256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f058858cb0ab2439e9197e826504bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightOnDesk: {fileID: 3294801786142464354, guid: 966c5b15d925c684f9f95c51f45a2eac, type: 3}
+  flashlightOnPlayer: {fileID: 3138411030975370477, guid: 4792861fe9247b94d97bc5d9c8b11742, type: 3}
+  OnPlayer: 0
+--- !u!114 &421761261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421761256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57f1e88156dec440873a11cd81daa7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 3483787621881173044, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
+  settings: {fileID: 8584633733229706050, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}
+  saveSystem: {fileID: 421761259}
+  sceneName: 
 --- !u!1 &472467920
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,7 +1039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 1.441, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -712.7378, y: 8.000122}
+  m_AnchoredPosition: {x: -712.73773, y: 8.000122}
   m_SizeDelta: {x: -1586.698, y: -537.929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867517126

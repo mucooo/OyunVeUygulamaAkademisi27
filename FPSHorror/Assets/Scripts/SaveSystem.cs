@@ -31,6 +31,8 @@ public class SaveSystem : MonoBehaviour
     public void SavePlayerPosition() //Save player's position 
     {
         var position = transform.position;
+        var getSceneName = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("SceneName", getSceneName);
         PlayerPrefs.SetFloat("PlayerPosX", position.x);
         PlayerPrefs.SetFloat("PlayerPosY", position.y);
         PlayerPrefs.SetFloat("PlayerPosZ", position.z);
@@ -39,6 +41,7 @@ public class SaveSystem : MonoBehaviour
 
     public void LoadPlayerPosition() //Load player's position
     {
+        PlayerPrefs.GetString("SceneName", "1");
         playerPosX = PlayerPrefs.GetFloat("PlayerPosX", defaultX);
         playerPosY = PlayerPrefs.GetFloat("PlayerPosY", defaultY);
         playerPosZ = PlayerPrefs.GetFloat("PlayerPosZ", defaultZ);

@@ -16,6 +16,8 @@ public class MenuScripts : MonoBehaviour
     public Button settingsButton;
     public Button creditsButton;
     public GameObject AyarlarPanel;
+    public SaveSystem saveSystem;
+    public MenuController menuController;
 
 
     private void Start()
@@ -26,12 +28,16 @@ public class MenuScripts : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("1");  //1. scene
     }
-
+    
     public void LoadGame()
     {
-        SceneManager.LoadScene("Game");
+        Debug.Log(saveSystem.transform.position);
+        Debug.Log("Load Game");
+        saveSystem.LoadPlayerPosition(); //load player position
+        saveSystem.LoadFlashlight(); //load flashlight
+        SceneManager.LoadScene(PlayerPrefs.GetString("SceneName"));  //1. scene
     }
 
     public void Settings()
