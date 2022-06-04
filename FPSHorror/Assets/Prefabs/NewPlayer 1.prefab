@@ -1523,6 +1523,8 @@ MonoBehaviour:
   menu: {fileID: 3646815292484033650}
   settings: {fileID: 7739474789178215454}
   saveSystem: {fileID: 4536208072385297659}
+  mainCamera: {fileID: 3984140971332019988}
+  menuCamera: {fileID: 0}
 --- !u!1 &9098387416513727715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,6 +2156,10 @@ PrefabInstance:
       value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9005220659476430823, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -2178,5 +2184,10 @@ PrefabInstance:
 --- !u!4 &3984140971332019987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+  m_PrefabInstance: {fileID: 5454557753752869105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &3984140971332019988 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 9005220659476430821, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
   m_PrefabInstance: {fileID: 5454557753752869105}
   m_PrefabAsset: {fileID: 0}
