@@ -56,13 +56,13 @@ public class SaveSystem : MonoBehaviour
         if (flashlightSwitchScript.OnPlayer) flashlightSwitchScript.TakeFlashlight();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            SavePlayerPosition();
-            SaveFlashlight();
-            Debug.Log("Saved");
-        }
-    }
+    // private void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Escape))
+    //     {
+    //         SavePlayerPosition();
+    //         SaveFlashlight();
+    //         Debug.Log("Saved");
+    //     }
+    // }
 }
