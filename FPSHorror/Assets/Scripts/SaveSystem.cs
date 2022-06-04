@@ -2,6 +2,7 @@
 
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 #endregion
 
@@ -18,15 +19,15 @@ public class SaveSystem : MonoBehaviour
 
     private void Awake()
     {
+        if (PlayerPrefs.GetInt("isSceneChanged",0) == 1)
+        {
+            SavePlayerPosition();
+            PlayerPrefs.SetInt("isSceneChanged", 0);
+        }
         LoadPlayerPosition();
         LoadFlashlight();
     }
-
-    private void Start()
-    {
-    }
-
-
+    
     public void SavePlayerPosition() //Save player's position 
     {
         var position = transform.position;
