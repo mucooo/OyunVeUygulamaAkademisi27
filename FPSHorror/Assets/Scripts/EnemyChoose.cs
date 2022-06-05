@@ -1,6 +1,5 @@
 #region
 
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,23 +14,21 @@ public class EnemyChoose : MonoBehaviour
     private void Start()
     {
         if (SceneManager.GetActiveScene().name == "7")
-        {
-            enemyPanel.SetActive(false);
+            //enemyPanel.SetActive(false);
             enemy.SetActive(true);
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) enemyPanel.SetActive(true);
-        isTrigger = true;
+        if (other.CompareTag("Player")) //enemyPanel.SetActive(true);
+            isTrigger = true;
         Time.timeScale = 0;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) enemyPanel.SetActive(false);
-        isTrigger = false;
+        if (other.CompareTag("Player")) //enemyPanel.SetActive(false);
+            isTrigger = false;
     }
 
     private void Update()
