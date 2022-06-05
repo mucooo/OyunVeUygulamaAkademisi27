@@ -57725,6 +57725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlashLightOnDesk
       objectReference: {fileID: 0}
+    - target: {fileID: 3294801786142464354, guid: 966c5b15d925c684f9f95c51f45a2eac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3294801786142965202, guid: 966c5b15d925c684f9f95c51f45a2eac, type: 3}
       propertyPath: m_RootOrder
       value: 27

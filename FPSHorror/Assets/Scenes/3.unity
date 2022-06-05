@@ -9656,7 +9656,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &349974304
 PrefabInstance:
@@ -15181,6 +15181,7 @@ GameObject:
   - component: {fileID: 536573857}
   - component: {fileID: 536573856}
   - component: {fileID: 536573855}
+  - component: {fileID: 536573859}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -15265,6 +15266,21 @@ Transform:
   m_Father: {fileID: 874914342}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &536573859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536573854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5839e11fb4f5ca04bab8e763021cdff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightUI: {fileID: 1742134212}
+  isTrigger: 0
+  player: {fileID: 1030278832}
 --- !u!1001 &537572865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26113,7 +26129,7 @@ Transform:
   - {fileID: 649622717}
   - {fileID: 1810488736}
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &976820876 stripped
 Transform:
@@ -35194,7 +35210,7 @@ Transform:
   - {fileID: 1877755164}
   - {fileID: 1068992573}
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1325431382
 PrefabInstance:
@@ -46188,7 +46204,7 @@ Transform:
   - {fileID: 1771171099}
   - {fileID: 1254528469}
   m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1729996698
 PrefabInstance:
@@ -46809,7 +46825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1742134213
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59743,7 +59759,7 @@ Transform:
   - {fileID: 4976669438875951866}
   - {fileID: 4976669438875951852}
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: -0.054, y: -90.773, z: 0.696}
 --- !u!4 &4976669438875951852
 Transform:
