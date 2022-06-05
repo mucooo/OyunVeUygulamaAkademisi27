@@ -1,6 +1,5 @@
 #region
 
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,27 +16,33 @@ public class MenuScripts : MonoBehaviour
     public Button creditsButton;
     public GameObject AyarlarPanel;
     public SaveSystem saveSystem;
+    public GameObject CreditsPanel;
     public MenuController menuController;
+    public GameObject DLCPanel;
+    public GameObject DLCPanel2;
 
 
     private void Start()
     {
         AyarlarPanel.SetActive(false);
+        CreditsPanel.SetActive(false);
+        DLCPanel.SetActive(false);
+        DLCPanel2.SetActive(false);
     }
 
 
     public void StartGame()
     {
-        SceneManager.LoadScene("1");  //1. scene
+        SceneManager.LoadScene("1"); //1. scene
     }
-    
+
     public void LoadGame()
     {
         Debug.Log(saveSystem.transform.position);
         Debug.Log("Load Game");
         saveSystem.LoadPlayerPosition(); //load player position
         saveSystem.LoadFlashlight(); //load flashlight
-        SceneManager.LoadScene(PlayerPrefs.GetString("SceneName"));  //1. scene
+        SceneManager.LoadScene(PlayerPrefs.GetString("SceneName")); //1. scene
     }
 
     public void Settings()
@@ -51,7 +56,25 @@ public class MenuScripts : MonoBehaviour
 
     public void Credits()
     {
-        SceneManager.LoadScene("Credits");
+        if (CreditsPanel != null)
+        {
+            var isActive = CreditsPanel.activeSelf;
+            CreditsPanel.SetActive(!isActive);
+        }
+    }
+
+    public void DLC()
+    {
+        if (DLCPanel != null)
+        {
+            var isActive = DLCPanel.activeSelf;
+            DLCPanel.SetActive(!isActive);
+        }
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 
     #endregion

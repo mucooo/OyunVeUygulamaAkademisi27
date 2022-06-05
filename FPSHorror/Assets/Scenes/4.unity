@@ -11952,7 +11952,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &349974304
 PrefabInstance:
@@ -25228,7 +25228,7 @@ Transform:
   - {fileID: 180991251}
   - {fileID: 1041889075}
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &695675497
 PrefabInstance:
@@ -33351,7 +33351,7 @@ Transform:
   m_Children:
   - {fileID: 649622717}
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &976820876 stripped
 Transform:
@@ -44059,7 +44059,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1324859229
 PrefabInstance:
@@ -57799,7 +57799,7 @@ Transform:
   - {fileID: 2070523813}
   - {fileID: 1345327849}
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1729686549
 GameObject:
@@ -65516,6 +65516,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.7711006
       objectReference: {fileID: 0}
+    - target: {fileID: 3299409859351980311, guid: f8b6755d2161d414d9521cf5840fb567, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.124631
+      objectReference: {fileID: 0}
     - target: {fileID: 3302929685174549911, guid: f8b6755d2161d414d9521cf5840fb567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8872
@@ -72230,7 +72234,7 @@ Transform:
   - {fileID: 1861644383}
   - {fileID: 75272184}
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2103236294
 PrefabInstance:
@@ -75686,7 +75690,7 @@ Transform:
   - {fileID: 1656763110}
   - {fileID: 1683961619}
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 90.037, z: 0}
 --- !u!23 &9039425499357622540
 MeshRenderer:
