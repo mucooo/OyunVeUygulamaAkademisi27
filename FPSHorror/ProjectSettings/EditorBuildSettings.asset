@@ -32,5 +32,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: ecf6d5adc13a4024ca6ec18e094d5ba5
+  - enabled: 1
+    path: Assets/Scenes/EvetSon.unity
+    guid: 3f9a8438bed6e344c9df761ee6875251
+  - enabled: 1
+    path: Assets/Scenes/HayirSon.unity
+    guid: 4e5c633baf98be64f88807c8907910cf
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 778aad22696a78b4ebddd975ade66b8d, type: 2}
