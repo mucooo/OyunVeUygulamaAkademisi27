@@ -15,7 +15,7 @@ public class MenuController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Y)) menu.SetActive(true);
+        if (Input.GetKeyDown(KeyCode.Escape)) menu.SetActive(true);
 
         if (menu.activeSelf)
         {
@@ -56,11 +56,11 @@ public class MenuController : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void Settings() //settings menu
-    {
-        settings.SetActive(!settings.activeSelf);
-        menu.SetActive(!menu.activeSelf);
-    }
+    // public void Settings() //settings menu
+    // {
+    //     settings.SetActive(!settings.activeSelf);
+    //     menu.SetActive(!menu.activeSelf);
+    // }
 
     public void SaveGameButton() //save game button
     {

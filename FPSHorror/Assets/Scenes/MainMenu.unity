@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: -62.00045}
+  m_AnchoredPosition: {x: 47, y: -15}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &27519623
@@ -744,7 +744,6 @@ MonoBehaviour:
   CreditsPanel: {fileID: 898594348}
   menuController: {fileID: 0}
   DLCPanel: {fileID: 700976399}
-  DLCPanel2: {fileID: 0}
   backButton: {fileID: 0}
   applyButton: {fileID: 0}
 --- !u!4 &421761258
@@ -774,7 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rawImage: {fileID: 1065058458}
-  _imageURL: https://i.imgur.com/qwPdj4W.jpg
+  _imageURL: https://cdn.discordapp.com/attachments/965706084981567541/983465977662550066/assetCredit.png
 --- !u!1 &472467920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,7 +1004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &669420679
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1806,7 +1805,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DLC
+  m_Text: "Masa\xFCst\xFCne d\xF6n"
 --- !u!222 &1076977889
 CanvasRenderer:
   m_ObjectHideFlags: 0
