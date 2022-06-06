@@ -145,23 +145,25 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Micro Board'da gözü
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_1.png?raw=true) 
-![Backlog 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_2.png?raw=true) 
-![Backlog 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/trelloSprint2_3.png?raw=true)
+![Backlog 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_1.png?raw=true) 
+![Backlog 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_2.png?raw=true) 
+![Backlog 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_3.png?raw=true)
+![Backlog 4](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_4.png?raw=true)
+![Backlog 5](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_5.png?raw=true)
+![Backlog 6](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_6.png?raw=true)
 
 - Lacivert Label: 3. Sprint ||  Mavi Label: User Story  ||  Kırmızı Label: Tasks
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/menu.png?raw=true)
-  ![Screenshot 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss1.png?raw=true)
-  ![Screenshot 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss2.png?raw=true)
-  ![Screenshot 4](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss3.png?raw=true)
-  ![Screenshot 5](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss4.png?raw=true)
-  ![Screenshot 6](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss5.png?raw=true)
-  ![Screenshot 7](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss6.png?raw=true)
-  ![Screenshot 8](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss7.png?raw=true)
-  ![Screenshot 9](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/ss8.png?raw=true)
+  ![Screenshot 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_1.png?raw=true)
+  ![Screenshot 2](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_2.png?raw=true)
+  ![Screenshot 3](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_3.png?raw=true)
+  ![Screenshot 4](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_4.png?raw=true)
+  ![Screenshot 5](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_5.png?raw=true)
+  ![Screenshot 6](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_6.png?raw=true)
+  ![Screenshot 7](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/ss3_7.png?raw=true)
+ 
 
 
 - **Sprint Review**: 
