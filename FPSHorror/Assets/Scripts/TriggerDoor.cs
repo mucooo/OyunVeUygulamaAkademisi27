@@ -10,12 +10,17 @@ public class TriggerDoor : MonoBehaviour
     [SerializeField] private bool openTrigger = false;
     [SerializeField] private bool closeTrigger = false;
     [SerializeField] private string doorOpen = "DoorOpen";
+    public KeySystem keySystem;
+
+
+    
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            if (openTrigger)
+            if (openTrigger && PlayerPrefs.GetInt("Key") == 1 && PlayerPrefs.GetInt("Key2") == 1 && PlayerPrefs.GetInt("Key3") == 1)
             {
                 myDoor.Play("DoorOpen", 0, 0.0f);
                 gameObject.SetActive(false);

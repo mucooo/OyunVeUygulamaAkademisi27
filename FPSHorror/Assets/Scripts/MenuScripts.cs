@@ -61,6 +61,7 @@ public class MenuScripts : MonoBehaviour
             var isActive = CreditsPanel.activeSelf;
             CreditsPanel.SetActive(!isActive);
         }
+        DLCPanel.SetActive(false);
     }
 
     public void DLC()
@@ -70,6 +71,7 @@ public class MenuScripts : MonoBehaviour
             var isActive = DLCPanel.activeSelf;
             DLCPanel.SetActive(!isActive);
         }
+        CreditsPanel.SetActive(false);
     }
 
     public void ExitGame()

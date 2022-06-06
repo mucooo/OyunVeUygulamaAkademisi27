@@ -8,6 +8,9 @@ TagManager:
   - Interactable
   - Grounded
   - Notepad
+  - Key
+  - Key2
+  - Key3
   layers:
   - Default
   - TransparentFX
