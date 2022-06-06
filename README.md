@@ -142,7 +142,7 @@ Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için g
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Micro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint2Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/DailyScrumMeetingNotesSprint3.pdf)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/mucooo/OyunVeUygulamaAkademisi27/blob/main/ProjectManagement/Sprint3Documents/trelloSprint3_1.png?raw=true) 
