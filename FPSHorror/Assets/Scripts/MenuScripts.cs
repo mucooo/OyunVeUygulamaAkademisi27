@@ -19,7 +19,6 @@ public class MenuScripts : MonoBehaviour
     public GameObject CreditsPanel;
     public MenuController menuController;
     public GameObject DLCPanel;
-    public GameObject DLCPanel2;
 
 
     private void Start()
@@ -27,7 +26,6 @@ public class MenuScripts : MonoBehaviour
         AyarlarPanel.SetActive(false);
         CreditsPanel.SetActive(false);
         DLCPanel.SetActive(false);
-        DLCPanel2.SetActive(false);
     }
 
 

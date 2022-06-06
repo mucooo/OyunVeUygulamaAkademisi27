@@ -10,6 +10,7 @@ public class EnemyChoose : MonoBehaviour
     public bool isTrigger;
     public GameObject enemy;
     public GameObject enemyPanel;
+    public AudioSource gunUsed;
 
     private void Start()
     {
@@ -20,15 +21,22 @@ public class EnemyChoose : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) //enemyPanel.SetActive(true);
+        if (other.CompareTag("Player"))
+        {
+            enemyPanel.SetActive(true);
             isTrigger = true;
+        }
+
         Time.timeScale = 0;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) //enemyPanel.SetActive(false);
+        if (other.CompareTag("Player"))
+        {
             isTrigger = false;
+            enemyPanel.SetActive(false);
+        }
     }
 
     private void Update()
@@ -41,15 +49,10 @@ public class EnemyChoose : MonoBehaviour
 
         if (isTrigger && Input.GetKeyDown(KeyCode.N))
         {
-            SceneManager.LoadScene("HayirSon");
+            gunUsed.PlayOneShot(gunUsed.clip);
+            WaitForSeconds wait = new WaitForSeconds(6);
+            SceneManager.LoadSceneAsync("HayirSon");
             Debug.Log("HayirSon");
         }
-
-        // if (isTrigger)
-        // {
-        //     new WaitForSeconds(10);
-        //     SceneManager.LoadScene("SecimsizSon");
-        //     Debug.Log("SecimsizSon");
-        // }
     }
 }

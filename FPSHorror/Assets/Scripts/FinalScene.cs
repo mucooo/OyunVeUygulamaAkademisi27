@@ -1,20 +1,27 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Timers;
+#region
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#endregion
+
 public class FinalScene : MonoBehaviour
 {
+    public GameObject image;
+    public GameObject text;
+    public bool keyActive;
+    public float timer;
+
     private void Start()
     {
-        StartCoroutine(Timer());
+        Cursor.lockState = CursorLockMode.None;
+        image.SetActive(true);
+        text.SetActive(true);
+        Debug.Log("FinalScene");
     }
     
-    IEnumerator Timer()
+    private void Update()
     {
-        yield return new WaitForSeconds(5);
-        SceneManager.LoadScene("MainMenu");
+        if (Input.GetKeyDown(KeyCode.E)) SceneManager.LoadScene("MainMenu");
     }
 }
