@@ -505,13 +505,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8318331846600252960}
     m_Modifications:
+    - target: {fileID: 1085272152940105149, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1797812838880910459, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 8121616000371612746}
+    - target: {fileID: 2672885574301061425, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3483787621881173044, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
       propertyPath: m_Name
       value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483787621881173044, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4281849461309248941, guid: d294af2bf5da47c428ab6e7550d541cc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -628,6 +640,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8318331846600252960}
     m_Modifications:
+    - target: {fileID: 2782109558577840552, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782109559619981646, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7929539305168665843, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -715,6 +735,10 @@ PrefabInstance:
     - target: {fileID: 8584633733229706050, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}
       propertyPath: m_Name
       value: Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584633733229706050, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ddaaa196ca09dc40bb764d87cce3ae2, type: 3}

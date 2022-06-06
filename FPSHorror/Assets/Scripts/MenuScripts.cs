@@ -36,7 +36,6 @@ public class MenuScripts : MonoBehaviour
 
     public void LoadGame()
     {
-        Debug.Log(saveSystem.transform.position);
         Debug.Log("Load Game");
         saveSystem.LoadPlayerPosition(); //load player position
         saveSystem.LoadFlashlight(); //load flashlight
@@ -59,6 +58,7 @@ public class MenuScripts : MonoBehaviour
             var isActive = CreditsPanel.activeSelf;
             CreditsPanel.SetActive(!isActive);
         }
+
         DLCPanel.SetActive(false);
     }
 
@@ -69,6 +69,7 @@ public class MenuScripts : MonoBehaviour
             var isActive = DLCPanel.activeSelf;
             DLCPanel.SetActive(!isActive);
         }
+
         CreditsPanel.SetActive(false);
     }
 

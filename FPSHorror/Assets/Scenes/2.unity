@@ -1511,6 +1511,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6991639017091540944, guid: bc676e53807a09f49b3478d20643a700, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6991639017669261494, guid: bc676e53807a09f49b3478d20643a700, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6991639018918344915, guid: bc676e53807a09f49b3478d20643a700, type: 3}
       propertyPath: doorUI
       value: 
@@ -53890,6 +53898,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3646815292484033650, guid: 3d7af2167245c3b4db004b080d9511a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3984140971332019987, guid: 3d7af2167245c3b4db004b080d9511a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.007000208

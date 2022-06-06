@@ -41,7 +41,7 @@ public class SaveSystem : MonoBehaviour
 
     public void LoadPlayerPosition() //Load player's position
     {
-        PlayerPrefs.GetString("SceneName", "1");
+        //PlayerPrefs.GetString("SceneName", "1");
         playerPosX = PlayerPrefs.GetFloat("PlayerPosX", defaultX);
         playerPosY = PlayerPrefs.GetFloat("PlayerPosY", defaultY);
         playerPosZ = PlayerPrefs.GetFloat("PlayerPosZ", defaultZ);
